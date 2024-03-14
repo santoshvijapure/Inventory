@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Modal, Box, Typography, TextField, Button, Grid } from "@mui/material";
+import { Modal, Box, Typography, TextField, Button } from "@mui/material";
 import { Product, useProduct } from "../Contexts/ProductConext";
 
 interface EditProductModalProps {
